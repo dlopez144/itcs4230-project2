@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite26",
+    "path": "sprites/Sprite26/Sprite26.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "items",
+    "path": "folders/Objects/items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_goal",
+  "name": "obj_gasoline",
   "tags": [],
   "resourceType": "GMObject",
 }

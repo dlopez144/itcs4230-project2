@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite24",
+    "path": "sprites/Sprite24/Sprite24.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -25,7 +28,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_goal",
+  "name": "obj_matches",
   "tags": [],
   "resourceType": "GMObject",
 }
