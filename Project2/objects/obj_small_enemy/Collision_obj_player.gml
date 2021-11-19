@@ -1,0 +1,1 @@
+/// @description Deals damage to player when colliding

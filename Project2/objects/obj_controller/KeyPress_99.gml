@@ -1,0 +1,3 @@
+/// @description Teleport player to exit
+obj_player.x = obj_goal.x
+obj_player.y = obj_goal.y
