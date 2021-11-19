@@ -14,6 +14,7 @@
     {"id":{"name":"obj_newspaper_clipping","path":"objects/obj_newspaper_clipping/obj_newspaper_clipping.yy",},"order":4,},
     {"id":{"name":"obj_note","path":"objects/obj_note/obj_note.yy",},"order":7,},
     {"id":{"name":"Sprite19","path":"sprites/Sprite19/Sprite19.yy",},"order":4,},
+    {"id":{"name":"spr_bar_background","path":"sprites/spr_bar_background/spr_bar_background.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"obj_UI_controller","path":"objects/obj_UI_controller/obj_UI_controller.yy",},"order":5,},
     {"id":{"name":"spr_player_move_down","path":"sprites/spr_player_move_down/spr_player_move_down.yy",},"order":1,},
