@@ -1,4 +1,4 @@
-player_maxHP = player_hp
+player_hp = player_maxHP
 battery_max = battery_charge
 
 healthbar_width = 200

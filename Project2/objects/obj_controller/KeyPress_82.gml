@@ -1,8 +1,8 @@
 /// @description Restart level
-if (global.game_over) {
-	room_restart()
-	global.game_over = false
+if (game_over) {
+	game_over = false
+	room_restart()	
 } else if (levelComplete) {
-	room_restart()
 	levelComplete = false
+	room_restart()	
 }
