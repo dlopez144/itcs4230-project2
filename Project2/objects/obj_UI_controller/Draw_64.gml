@@ -1,5 +1,5 @@
 /// @desc UI
-if (!obj_controller.levelComplete and !obj_controller.game_over) {
+if (!obj_game_controller.levelComplete and !obj_game_controller.game_over) {
 	// clamp player hp to max
 	if (player_hp > player_maxHP) player_hp = player_maxHP
 	//draw bar background
@@ -26,7 +26,7 @@ if (!obj_controller.levelComplete and !obj_controller.game_over) {
 	draw_text(quest_body_x, quest_body_y, quest_body)
 }
 
-if (obj_controller.game_over) {
+if (obj_game_controller.game_over) {
 	draw_set_font(FontSmall)
 	//Sets color
 	draw_set_colour(c_orange)

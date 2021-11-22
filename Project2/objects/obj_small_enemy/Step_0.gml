@@ -21,3 +21,9 @@ if (returningToSpawn) {
 		returningToSpawn = false
 	}
 }
+
+if dying == true {
+	instance_destroy()
+	// TODO: play death anim
+	alarm[2] = 30 // however long the death anim is
+}

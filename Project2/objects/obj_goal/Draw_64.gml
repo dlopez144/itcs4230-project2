@@ -1,5 +1,5 @@
 /// @description Win message/UI
-if (obj_controller.levelComplete) {
+if (obj_game_controller.levelComplete) {
 	draw_set_font(FontSmall)
 	//Sets color
 	draw_set_colour(c_orange)

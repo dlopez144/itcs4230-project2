@@ -1,4 +1,4 @@
 /// @description detect player entering goal
 
-obj_controller.levelComplete = true
+obj_game_controller.levelComplete = true
 instance_destroy(other)

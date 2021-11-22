@@ -1,0 +1,1 @@
+other.dying = true
