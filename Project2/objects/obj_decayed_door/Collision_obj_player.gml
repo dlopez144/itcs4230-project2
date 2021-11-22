@@ -1,5 +1,2 @@
-/// @description checks if player is near
-if (obj_game_controller.hasAxe) {
-	playerNear = true;
-}
-
+/// @description Insert description here
+// You can write your code in this editor

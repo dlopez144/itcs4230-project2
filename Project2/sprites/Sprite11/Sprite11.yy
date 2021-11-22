@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "key_items",
-    "path": "folders/Sprites/placeholder_sprites/key_items.yy",
+    "path": "folders/Sprites/items/key_items.yy",
   },
   "resourceVersion": "1.0",
   "name": "Sprite11",

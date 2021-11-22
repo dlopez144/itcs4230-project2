@@ -17,11 +17,12 @@ if (!obj_game_controller.levelComplete and !obj_game_controller.game_over) {
 	draw_sprite_stretched(spr_battery_bar_fill,0,battery_bar_x,battery_bar_y, (battery_charge/battery_max)*battery_bar_width, battery_bar_height)
 	//draw border
 	draw_rectangle(battery_bar_x, battery_bar_y, battery_bar_x+battery_bar_width-1, battery_bar_y+battery_bar_height-1, 1)
-
-	draw_set_font(FontSmall)
+	draw_set_colour(c_white)
+	draw_set_font(FontLarge)
 	draw_set_halign(fa_left)
 	//draw quest title
 	draw_text(quest_title_x, quest_title_y, quest_title)
+	draw_set_font(FontSmall)
 	//draw quest body
 	draw_text(quest_body_x, quest_body_y, quest_body)
 }

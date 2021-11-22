@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_axe",
-    "path": "sprites/spr_axe/spr_axe.yy",
+    "name": "spr_bookshelf_note",
+    "path": "sprites/spr_bookshelf_note/spr_bookshelf_note.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_axe",
+  "name": "obj_note_2",
   "tags": [],
   "resourceType": "GMObject",
 }

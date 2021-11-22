@@ -69,11 +69,24 @@ if state == player_state.actionable { // movement and things that don't pause th
 
 // basic collision
 if !instance_place(x, y + sign(vsp), obj_block) {
-	y += vsp
+	if vsp < 0 {
+		if !instance_place(x, y + vsp, obj_decayed_door) and !instance_place(x, y + vsp, obj_bookshelf_1) and !instance_place(x, y + vsp, obj_bookshelf_2) {
+			y += vsp
+		}
+	} else if !instance_place(x, y + vsp, obj_decayed_door) and !instance_place(x, y + vsp, obj_bookshelf_1) and !instance_place(x, y + vsp, obj_bookshelf_2) {
+		y += vsp
+	}
+	
 }
 
-if !instance_place(x + sign(hsp), y, obj_block) {
-	x += hsp
+if !instance_place(x + sign(hsp), y, obj_block){
+	if hsp < 0 {
+		if !instance_place(x + hsp, y, obj_decayed_door) and !instance_place(x + hsp, y, obj_bookshelf_1) and !instance_place(x + hsp, y, obj_bookshelf_2) {
+			x += hsp
+		}
+	} else if !instance_place(x + hsp, y, obj_decayed_door) and !instance_place(x + hsp, y, obj_bookshelf_1) and !instance_place(x + hsp, y, obj_bookshelf_2) {
+		x += hsp
+	}
 }
 
 

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_decayed_door",
-    "path": "sprites/spr_decayed_door/spr_decayed_door.yy",
+    "name": "spr_bookshelf",
+    "path": "sprites/spr_bookshelf/spr_bookshelf.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,7 +24,7 @@
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":69,"eventType":10,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":69,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
     {"varType":0,"value":"20","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"detection_range","tags":[],"resourceType":"GMObjectProperty",},
@@ -35,7 +35,7 @@
     "path": "folders/Objects/Doors.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_decayed_door",
+  "name": "obj_bookshelf_1",
   "tags": [],
   "resourceType": "GMObject",
 }
