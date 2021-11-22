@@ -1,2 +1,2 @@
 /// @description Heal player
-player_hp++
+player_hp += 10
