@@ -3,7 +3,7 @@
   "volume": 1.0,
   "parentRoom": null,
   "views": [
-    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":720,"hview":400,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":170,"hspeed":-1,"vspeed":-1,"objectId":{"name":"player_placeholder","path":"objects/player_placeholder/player_placeholder.yy",},},
+    {"inherit":false,"visible":true,"xview":0,"yview":0,"wview":720,"hview":400,"xport":0,"yport":0,"wport":1920,"hport":1080,"hborder":300,"vborder":170,"hspeed":-1,"vspeed":-1,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":false,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -56,6 +56,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":3.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":544.0,"resourceVersion":"1.0","name":"inst_357C7B8C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_small_enemy","path":"objects/obj_small_enemy/obj_small_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":512.0,"resourceVersion":"1.0","name":"inst_66FEAB02","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":32.0,"resourceVersion":"1.0","name":"inst_5B8F8464","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":992.0,"y":992.0,"resourceVersion":"1.0","name":"inst_79FAC689","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_UI_controller","path":"objects/obj_UI_controller/obj_UI_controller.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":320.0,"resourceVersion":"1.0","name":"inst_6EE9F5FD","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":4.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1664.0,"y":128.0,"resourceVersion":"1.0","name":"graphic_1B15E81F","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -115,6 +117,8 @@
     {"name":"inst_357C7B8C","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_66FEAB02","path":"rooms/level_1/level_1.yy",},
     {"name":"inst_5B8F8464","path":"rooms/level_1/level_1.yy",},
+    {"name":"inst_79FAC689","path":"rooms/level_1/level_1.yy",},
+    {"name":"inst_6EE9F5FD","path":"rooms/level_1/level_1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

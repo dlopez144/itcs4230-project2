@@ -83,8 +83,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
+    {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
   ],
   "Folders": [
@@ -124,7 +124,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.6.595",
+    "IDEVersion": "2.3.5.589",
   },
   "resourceVersion": "1.4",
   "name": "Project2",
