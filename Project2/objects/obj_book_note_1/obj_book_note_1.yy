@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "Sprite27",
-    "path": "sprites/Sprite27/Sprite27.yy",
+    "name": "spr_bookshelf_note",
+    "path": "sprites/spr_bookshelf_note/spr_bookshelf_note.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_key",
-    "path": "objects/obj_key/obj_key.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -33,7 +30,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_cellar_key",
+  "name": "obj_book_note_1",
   "tags": [],
   "resourceType": "GMObject",
 }

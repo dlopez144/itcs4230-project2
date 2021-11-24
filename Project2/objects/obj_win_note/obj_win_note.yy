@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_bookshelf_note",
-    "path": "sprites/spr_bookshelf_note/spr_bookshelf_note.yy",
+    "name": "spr_win_note",
+    "path": "sprites/spr_win_note/spr_win_note.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,7 +30,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_note_1",
+  "name": "obj_win_note",
   "tags": [],
   "resourceType": "GMObject",
 }

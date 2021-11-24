@@ -30,7 +30,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_note_2",
+  "name": "obj_book_note_2",
   "tags": [],
   "resourceType": "GMObject",
 }
