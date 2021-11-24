@@ -4,5 +4,5 @@ if (playerNear) {
 	draw_set_font(FontSmall)
 	draw_set_halign(fa_middle)
 	//draw quest title
-	draw_text(room_width/2, room_height/2, "Press \"E\" to use key")
+	draw_text(x, y-20, "Press \"E\" to use key")
 }
