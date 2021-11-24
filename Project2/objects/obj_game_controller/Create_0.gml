@@ -7,3 +7,5 @@ hasKey1 = false
 hasWinNote = false
 hasCrowbar = false
 hasKey2 = false
+hasFuel = false
+hasMatches = false

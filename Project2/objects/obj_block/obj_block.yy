@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Level",
+    "path": "folders/Objects/Level.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_block",

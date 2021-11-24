@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Small enemy sprites",
-    "path": "folders/Sprites/Small enemy sprites.yy",
+    "name": "Small enemy",
+    "path": "folders/Sprites/Enemies/Small enemy.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_small_enemy",

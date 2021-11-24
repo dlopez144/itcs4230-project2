@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","path":"sprites/spr_goal/spr_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","path":"sprites/spr_goal/spr_goal.yy",},"LayerId":{"name":"3c127aae-0598-419e-ae71-99cd103ad7ff","path":"sprites/spr_goal/spr_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},"resourceVersion":"1.0","name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ac1eed62-5d6c-4908-9917-c571383fd2ab","path":"sprites/spr_boss_run/spr_boss_run.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ac1eed62-5d6c-4908-9917-c571383fd2ab","path":"sprites/spr_boss_run/spr_boss_run.yy",},"LayerId":{"name":"fd38c282-1163-4d93-ab65-3aead9855d1e","path":"sprites/spr_boss_run/spr_boss_run.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_boss_run","path":"sprites/spr_boss_run/spr_boss_run.yy",},"resourceVersion":"1.0","name":"ac1eed62-5d6c-4908-9917-c571383fd2ab","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},
+    "spriteId": {"name":"spr_boss_run","path":"sprites/spr_boss_run/spr_boss_run.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"992c6cb4-1d46-4e5d-8e63-d2eb76e3cf3d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","path":"sprites/spr_goal/spr_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"65b570d8-4d0a-4852-9e22-46e556e6879e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ac1eed62-5d6c-4908-9917-c571383fd2ab","path":"sprites/spr_boss_run/spr_boss_run.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},
+    "parent": {"name":"spr_boss_run","path":"sprites/spr_boss_run/spr_boss_run.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_goal",
+    "name": "spr_boss_run",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3c127aae-0598-419e-ae71-99cd103ad7ff","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"fd38c282-1163-4d93-ab65-3aead9855d1e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Level",
-    "path": "folders/Sprites/Level.yy",
+    "name": "Boss",
+    "path": "folders/Sprites/Enemies/Boss.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_goal",
+  "name": "spr_boss_run",
   "tags": [],
   "resourceType": "GMSprite",
 }

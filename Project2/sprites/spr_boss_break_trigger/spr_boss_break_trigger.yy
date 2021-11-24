@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","path":"sprites/spr_goal/spr_goal.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","path":"sprites/spr_goal/spr_goal.yy",},"LayerId":{"name":"3c127aae-0598-419e-ae71-99cd103ad7ff","path":"sprites/spr_goal/spr_goal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},"resourceVersion":"1.0","name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"dc9d3a04-724b-441a-b488-3814df004761","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"dc9d3a04-724b-441a-b488-3814df004761","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},"LayerId":{"name":"9bdf90fb-a4d9-468c-9f2f-e93c9b063177","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_boss_break_trigger","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},"resourceVersion":"1.0","name":"dc9d3a04-724b-441a-b488-3814df004761","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},
+    "spriteId": {"name":"spr_boss_break_trigger","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"992c6cb4-1d46-4e5d-8e63-d2eb76e3cf3d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"edfc0f72-ce85-4e53-b187-23b58b7e20ae","path":"sprites/spr_goal/spr_goal.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5015d370-aafb-4f37-8713-487eebea6ea4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"dc9d3a04-724b-441a-b488-3814df004761","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_goal","path":"sprites/spr_goal/spr_goal.yy",},
+    "parent": {"name":"spr_boss_break_trigger","path":"sprites/spr_boss_break_trigger/spr_boss_break_trigger.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_goal",
+    "name": "spr_boss_break_trigger",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"3c127aae-0598-419e-ae71-99cd103ad7ff","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9bdf90fb-a4d9-468c-9f2f-e93c9b063177","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Level.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_goal",
+  "name": "spr_boss_break_trigger",
   "tags": [],
   "resourceType": "GMSprite",
 }
