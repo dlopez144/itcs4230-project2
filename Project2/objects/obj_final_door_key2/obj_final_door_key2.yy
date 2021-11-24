@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "Sprite11",
-    "path": "sprites/Sprite11/Sprite11.yy",
+    "name": "spr_final_door_key2",
+    "path": "sprites/spr_final_door_key2/spr_final_door_key2.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_axe",
-    "path": "objects/obj_axe/obj_axe.yy",
+    "name": "obj_final_door_key1",
+    "path": "objects/obj_final_door_key1/obj_final_door_key1.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Items.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_key",
+  "name": "obj_final_door_key2",
   "tags": [],
   "resourceType": "GMObject",
 }
