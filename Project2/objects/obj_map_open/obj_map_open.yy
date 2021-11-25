@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "Sprite20",
-    "path": "sprites/Sprite20/Sprite20.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,18 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Controllers",
+    "path": "folders/Objects/Controllers.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_map",
+  "name": "obj_map_open",
   "tags": [],
   "resourceType": "GMObject",
 }
