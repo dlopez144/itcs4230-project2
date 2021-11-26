@@ -3,7 +3,7 @@
     "name": "spr_barricaded_door",
     "path": "sprites/spr_barricaded_door/spr_barricaded_door.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

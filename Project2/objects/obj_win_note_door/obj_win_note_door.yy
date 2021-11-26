@@ -3,7 +3,7 @@
     "name": "spr_win_note_door",
     "path": "sprites/spr_win_note_door/spr_win_note_door.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

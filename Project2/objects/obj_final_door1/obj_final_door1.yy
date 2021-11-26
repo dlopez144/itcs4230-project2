@@ -3,7 +3,7 @@
     "name": "spr_final_door",
     "path": "sprites/spr_final_door/spr_final_door.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

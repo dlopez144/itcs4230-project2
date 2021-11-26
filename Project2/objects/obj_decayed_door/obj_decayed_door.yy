@@ -3,7 +3,7 @@
     "name": "spr_decayed_door",
     "path": "sprites/spr_decayed_door/spr_decayed_door.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
