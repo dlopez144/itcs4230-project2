@@ -9,5 +9,5 @@ hasCrowbar = false
 hasKey2 = false
 hasFuel = false
 hasMatches = false
-hasMap = false
+
 
