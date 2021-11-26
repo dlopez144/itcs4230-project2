@@ -67,6 +67,8 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_small_enemy","path":"objects/obj_small_enemy/obj_small_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":672.0,"resourceVersion":"1.0","name":"inst_36609713","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_small_enemy","path":"objects/obj_small_enemy/obj_small_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":160.0,"resourceVersion":"1.0","name":"inst_2BC6D99C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_small_enemy","path":"objects/obj_small_enemy/obj_small_enemy.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":832.0,"y":448.0,"resourceVersion":"1.0","name":"inst_6C69E9E5","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boss_break","path":"objects/obj_boss_break/obj_boss_break.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1792.0,"y":928.0,"resourceVersion":"1.0","name":"inst_605F9891","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_boss_break_target","path":"objects/obj_boss_break_target/obj_boss_break_target.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1504.0,"y":928.0,"resourceVersion":"1.0","name":"inst_1372CB35","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"assets":[
         {"spriteId":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":3.0,"scaleY":3.5,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1632.0,"y":96.0,"resourceVersion":"1.0","name":"graphic_3FEFB0E3","tags":[],"resourceType":"GMRSpriteGraphic",},
@@ -144,6 +146,8 @@
     {"name":"inst_36609713","path":"rooms/level_2/level_2.yy",},
     {"name":"inst_2BC6D99C","path":"rooms/level_2/level_2.yy",},
     {"name":"inst_6C69E9E5","path":"rooms/level_2/level_2.yy",},
+    {"name":"inst_605F9891","path":"rooms/level_2/level_2.yy",},
+    {"name":"inst_1372CB35","path":"rooms/level_2/level_2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
