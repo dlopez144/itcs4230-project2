@@ -9,5 +9,6 @@ hasCrowbar = false
 hasKey2 = false
 hasFuel = false
 hasMatches = false
+bookShelf2Opened = false
 
 

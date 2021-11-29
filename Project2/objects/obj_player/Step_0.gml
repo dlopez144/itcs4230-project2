@@ -75,7 +75,8 @@ if !instance_place(x, y + sign(vsp), obj_block) {
 			!instance_place(x, y + vsp, obj_bookshelf_2) and 
 			!instance_place(x, y + vsp, obj_final_door1) and
 			!instance_place(x, y + vsp, obj_win_note_door) and
-			!instance_place(x, y + vsp, obj_barricaded_door) {
+			!instance_place(x, y + vsp, obj_barricaded_door) and
+			!instance_place(x, y + vsp, obj_cracked_wall) {
 			y += vsp
 		}
 	} else if	!instance_place(x, y + vsp, obj_decayed_door) and
@@ -83,7 +84,8 @@ if !instance_place(x, y + sign(vsp), obj_block) {
 				!instance_place(x, y + vsp, obj_bookshelf_2) and
 				!instance_place(x, y + vsp, obj_final_door1) and
 				!instance_place(x, y + vsp, obj_win_note_door) and
-				!instance_place(x, y + vsp, obj_barricaded_door) {
+				!instance_place(x, y + vsp, obj_barricaded_door) and
+				!instance_place(x, y + vsp, obj_cracked_wall) {
 		y += vsp
 	}
 	
@@ -96,7 +98,8 @@ if !instance_place(x + sign(hsp), y, obj_block){
 			!instance_place(x + hsp, y, obj_bookshelf_2) and 
 			!instance_place(x + hsp, y, obj_final_door1) and 
 			!instance_place(x + hsp, y, obj_win_note_door) and
-			!instance_place(x + hsp, y, obj_barricaded_door)  {
+			!instance_place(x + hsp, y, obj_barricaded_door) and
+			!instance_place(x + hsp, y, obj_cracked_wall) {
 			x += hsp
 		}
 	} else if	!instance_place(x + hsp, y, obj_decayed_door) and 
@@ -104,7 +107,8 @@ if !instance_place(x + sign(hsp), y, obj_block){
 				!instance_place(x + hsp, y, obj_bookshelf_2) and 
 				!instance_place(x + hsp, y, obj_final_door1) and 
 				!instance_place(x + hsp, y, obj_win_note_door) and 
-				!instance_place(x + hsp, y, obj_barricaded_door)  {
+				!instance_place(x + hsp, y, obj_barricaded_door) and 
+				!instance_place(x + hsp, y, obj_cracked_wall) {
 		x += hsp
 	}
 }
