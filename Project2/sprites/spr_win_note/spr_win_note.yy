@@ -70,7 +70,7 @@
   "nineSlice": null,
   "parent": {
     "name": "key_items",
-    "path": "folders/Sprites/items/key_items.yy",
+    "path": "folders/Sprites/Items/key_items.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_win_note",

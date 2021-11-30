@@ -1,2 +1,2 @@
-/// @description Damage player
-player_hp--
+/// @description Give battery
+battery_charge += 10
