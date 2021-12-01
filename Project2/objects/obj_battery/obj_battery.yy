@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite12",
-    "path": "sprites/Sprite12/Sprite12.yy",
+    "name": "spr_battery",
+    "path": "sprites/spr_battery/spr_battery.yy",
   },
   "solid": false,
   "visible": true,

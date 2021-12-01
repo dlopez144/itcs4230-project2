@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite26",
-    "path": "sprites/Sprite26/Sprite26.yy",
+    "name": "spr_gas",
+    "path": "sprites/spr_gas/spr_gas.yy",
   },
   "solid": false,
   "visible": true,

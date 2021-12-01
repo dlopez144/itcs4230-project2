@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
+    "name": "spr_crowbar",
+    "path": "sprites/spr_crowbar/spr_crowbar.yy",
   },
   "solid": false,
   "visible": true,
