@@ -31,7 +31,7 @@
   ],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"move_spd","path":"objects/obj_boss_break/obj_boss_break.yy",},"objectId":{"name":"obj_boss_break","path":"objects/obj_boss_break/obj_boss_break.yy",},"value":"5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"move_spd","path":"objects/obj_boss_break/obj_boss_break.yy",},"objectId":{"name":"obj_boss_break","path":"objects/obj_boss_break/obj_boss_break.yy",},"value":"4","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemies",
