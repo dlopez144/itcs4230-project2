@@ -1,1 +1,2 @@
 playerNear = false
+playerNearNoTool = false;

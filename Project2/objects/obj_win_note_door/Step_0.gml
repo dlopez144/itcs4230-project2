@@ -4,8 +4,12 @@ if (instance_exists(obj_player)) {
 	if (distance_to_object(obj_player) < detection_range) {
 		if (obj_game_controller.hasWinNote) {
 			playerNear = true;
+		} else {
+			playerNearNoTool = true;
 		}
 	} else if (obj_game_controller.hasWinNote) {
 		playerNear = false;
-	}		
+	} else {
+		playerNearNoTool = false;
+	}	
 }
