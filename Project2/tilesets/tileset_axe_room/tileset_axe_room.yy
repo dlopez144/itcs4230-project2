@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_floor_tile",
-    "path": "sprites/spr_floor_tile/spr_floor_tile.yy",
+    "name": "spr_axe_room_tile",
+    "path": "sprites/spr_axe_room_tile/spr_axe_room_tile.yy",
   },
   "tileWidth": 64,
   "tileHeight": 64,
@@ -17,7 +17,7 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "out_columns": 3,
-  "tile_count": 9,
+  "tile_count": 12,
   "autoTileSets": [],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -32,6 +32,9 @@
       6,
       7,
       8,
+      9,
+      10,
+      11,
     ],
     "SerialiseFrameCount": 1,
   },
@@ -41,11 +44,11 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "level 1",
+    "path": "folders/Tile Sets/level 1.yy",
   },
   "resourceVersion": "1.0",
-  "name": "TileSet1",
+  "name": "tileset_axe_room",
   "tags": [],
   "resourceType": "GMTileSet",
 }
