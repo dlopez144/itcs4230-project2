@@ -1,6 +1,7 @@
 // creates cone obj and clamps its direction based on keyboard input
 if instance_exists(obj_player) {
 	instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_cone)
+	obj_UI_controller.battery_charge -= battery_dec_rate
 	switch (facing) {
 		case 0:
 			obj_cone.image_angle = clamp(obj_cone.image_angle, -90, 90)
@@ -23,7 +24,7 @@ if instance_exists(obj_player) {
 
 	
 	
-	if keyboard_check_released(ord("F")) {
+	if keyboard_check_released(ord("F")) or obj_UI_controller.battery_charge <= 0 {
 		state = player_state.actionable
 		instance_destroy(obj_cone) // can use obj here instead of id since there's only 1
 

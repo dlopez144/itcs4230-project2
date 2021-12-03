@@ -23,8 +23,9 @@ if (returningToSpawn) {
 	}
 }
 
-if dying == true {
-	instance_destroy()
+if	enemy_hp <= 0 {
 	// TODO: play death anim
-	alarm[2] = 30 // however long the death anim is
+	instance_destroy() // temp destroy call until a death anim is made
+	//alarm[2] = 30 // however long the death anim is, destroy the instance there
+	// or could just play the death anim and destroy the instance in the animation end event
 }

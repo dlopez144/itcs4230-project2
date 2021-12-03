@@ -29,21 +29,21 @@ if state == player_state.actionable { // movement and things that don't pause th
 		//show_debug_message(ds_stack_top(input_stack))
 		switch(ds_stack_pop(input_stack)) { // input priority goes to the last input performed
 			case up:
-				show_debug_message("in up")
+				//show_debug_message("in up")
 				facing = 0
 				sprite_index = spr_player_move_up
 				hsp = 0 // no diagonal movement for now
 				vsp = -ver_speed
 			break
 			case right:
-				show_debug_message("in right")
+				//show_debug_message("in right")
 				facing = 2
 				sprite_index = spr_player_hmove
 				vsp = 0
 				hsp = hor_speed
 			break
 			case down:
-				show_debug_message("in down")
+				//show_debug_message("in down")
 				facing = 1
 				sprite_index = spr_player_move_down
 				hsp = 0
@@ -52,7 +52,7 @@ if state == player_state.actionable { // movement and things that don't pause th
 			case left:
 				facing = 3
 				sprite_index = spr_player_hmove
-				show_debug_message("in left")
+				//show_debug_message("in left")
 				vsp = 0
 				hsp = -hor_speed
 			break
@@ -63,7 +63,11 @@ if state == player_state.actionable { // movement and things that don't pause th
 	
 } else if state == player_state.unactionable { // no moving
 	//move_flashlight_mouse()
-	control_flashlight() // keyboard controls for the flashlight
+	if instance_exists(obj_UI_controller) and obj_UI_controller.battery_charge > 0 {
+		control_flashlight() // keyboard controls for the flashlight
+	} else {
+		state = player_state.actionable
+	}
 }
 
 

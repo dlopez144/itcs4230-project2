@@ -1,1 +1,1 @@
-other.dying = true
+other.enemy_hp -= light_damage
