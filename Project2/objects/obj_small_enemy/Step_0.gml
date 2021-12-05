@@ -35,3 +35,7 @@ if (enemy_hp < maxHP) {
 } else {
 	draw_health_bar = false
 }
+
+if (!place_meeting(x, y, obj_cone)) {
+	move_spd = 3
+}
