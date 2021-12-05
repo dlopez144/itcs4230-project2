@@ -29,3 +29,9 @@ if	enemy_hp <= 0 {
 	//alarm[2] = 30 // however long the death anim is, destroy the instance there
 	// or could just play the death anim and destroy the instance in the animation end event
 }
+
+if (enemy_hp < maxHP) {
+	draw_health_bar = true
+} else {
+	draw_health_bar = false
+}
