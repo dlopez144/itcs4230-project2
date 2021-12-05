@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_axe_room_tile",
-    "path": "sprites/spr_axe_room_tile/spr_axe_room_tile.yy",
+    "name": "spr_secret_room_tile",
+    "path": "sprites/spr_secret_room_tile/spr_secret_room_tile.yy",
   },
   "tileWidth": 32,
   "tileHeight": 32,
@@ -84,7 +84,7 @@
     "path": "folders/Tile Sets/level 1.yy",
   },
   "resourceVersion": "1.0",
-  "name": "tileset_axe_room",
+  "name": "tileset_secret_room",
   "tags": [],
   "resourceType": "GMTileSet",
 }
