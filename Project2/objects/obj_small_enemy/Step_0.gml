@@ -35,7 +35,7 @@ if (enemy_hp < maxHP) {
 } else {
 	draw_health_bar = false
 }
-
+//reset move speed when not in light
 if (!place_meeting(x, y, obj_cone)) {
 	move_spd = 3
 }

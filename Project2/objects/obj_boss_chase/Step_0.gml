@@ -1,7 +1,4 @@
-/// @desc Movement
-/*
-if (instance_exists(obj_player)) {
-	//steps towards target, avoiding obj_block
-	mp_potential_step_object(obj_player.x, obj_player.y, move_spd, obj_block)
+/// @desc Reset move speed when not in light
+if (!place_meeting(x, y, obj_cone)) {
+	move_spd = max_move_spd
 }
-*/
