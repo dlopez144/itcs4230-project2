@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_small_enemy",
-    "path": "sprites/spr_small_enemy/spr_small_enemy.yy",
+    "name": "spr_baby_front_idle",
+    "path": "sprites/spr_baby_front_idle/spr_baby_front_idle.yy",
   },
   "solid": false,
   "visible": true,
