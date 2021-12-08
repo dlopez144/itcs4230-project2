@@ -8,7 +8,7 @@ if (game_over) {
 		hasBookNote1 = false
 		hasBookNote2 = false
 		hasKey1 = false
-		hasMap = false
+		obj_map_open.hasMap = false
 		obj_UI_controller.quest_title = "Find a way through to the exit"
 		obj_UI_controller.quest_body = "- Explore"
 	} else {
