@@ -9,6 +9,7 @@ if (keyboard_check_pressed(ord("M"))) {
 		view_visible[1] = false
 		instance_activate_all()
 	}
+	
 }
 
 
