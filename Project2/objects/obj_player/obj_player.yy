@@ -6,8 +6,8 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": {
-    "name": "spr_coll_mask",
-    "path": "sprites/spr_coll_mask/spr_coll_mask.yy",
+    "name": "spr_coll_mask_2",
+    "path": "sprites/spr_coll_mask_2/spr_coll_mask_2.yy",
   },
   "persistent": false,
   "parentObjectId": null,
