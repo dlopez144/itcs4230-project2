@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
-  },
-  "solid": true,
-  "visible": false,
+  "spriteId": null,
+  "solid": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +25,7 @@
     "path": "folders/Objects/Level.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_block",
+  "name": "obj_solid",
   "tags": [],
   "resourceType": "GMObject",
 }

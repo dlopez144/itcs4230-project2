@@ -1,16 +1,18 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function cast_ray(x_start, y_start, x_end, y_end) {
-	block_1 = collision_line(x_start, y_start, x_end, y_end, obj_block, true, true)
+	block_1 = collision_line(x_start, y_start, x_end, y_end, obj_solid, true, true)
 	
 	// distances to be inspected
 	distance_x = 0
 	distance_y = 0
 	
-	if block_1 != noone {
+	if block_1 != noone { // block found
 		distance_x = x_end - x_start
 		distance_y = y_end - y_start
 		
+		// basically just a form of binary search but on a pixel level
+		// 
 		while abs(distance_x) >= 1 or abs(distance_y) >= 1 {
 			// halving distances 
 			distance_x /= 2
@@ -19,7 +21,7 @@ function cast_ray(x_start, y_start, x_end, y_end) {
 			temp_x_end = x_end - distance_x
 			temp_y_end = y_end - distance_y
 			
-			block_2 = collision_line(x_start, y_start, temp_x_end, temp_y_end, obj_block, true, true)
+			block_2 = collision_line(x_start, y_start, temp_x_end, temp_y_end, obj_solid, true, true)
 			
 			if block_2 != noone {
 				block_1 = block_2
