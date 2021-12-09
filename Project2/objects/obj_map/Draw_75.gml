@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 if (showText) {
 	draw_set_colour(c_white)
 	draw_set_font(FontSmall)

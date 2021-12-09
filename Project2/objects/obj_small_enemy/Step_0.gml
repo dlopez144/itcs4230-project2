@@ -30,11 +30,14 @@ if	enemy_hp <= 0 {
 	// or could just play the death anim and destroy the instance in the animation end event
 }
 
-if (enemy_hp < maxHP) {
-	draw_health_bar = true
-} else {
-	draw_health_bar = false
+if instance_exists(obj_cone) {
+		if (enemy_hp < maxHP) {
+		draw_health_bar = true
+		} else {
+		draw_health_bar = false
+		}	
 }
+
 //reset move speed when not in light
 if (!place_meeting(x, y, obj_cone)) {
 	move_spd = 3

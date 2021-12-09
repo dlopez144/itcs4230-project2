@@ -32,7 +32,8 @@ if instance_exists(obj_player) {
 		break
 	}
 	
-	object_set_visible(obj_cone, 1)
+	// recently commented out
+	//object_set_visible(obj_cone, 1)
 	
 	
 	if keyboard_check_released(ord("F")) {
