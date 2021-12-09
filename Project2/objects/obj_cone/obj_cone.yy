@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cone",
-    "path": "sprites/spr_cone/spr_cone.yy",
+    "name": "spr_cone_2",
+    "path": "sprites/spr_cone_2/spr_cone_2.yy",
   },
   "solid": false,
   "visible": false,

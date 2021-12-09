@@ -19,7 +19,9 @@ if instance_exists(obj_player) {
 			obj_cone.image_angle = clamp(obj_cone.image_angle, 0, 180)
 		break
 	}
-	object_set_visible(obj_cone, 1)
+	
+	// recently commented out
+	//object_set_visible(obj_cone, 1)
 	move_flashlight()
 
 	
