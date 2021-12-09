@@ -3,5 +3,5 @@ playerNear = false
 playerNearNoTool = false
 
 if (horizontal) {
-	sprite_index = spr_bookshelf_hor
+	sprite_index = spr_barricaded_door_hor
 }
