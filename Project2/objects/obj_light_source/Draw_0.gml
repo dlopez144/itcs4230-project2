@@ -25,7 +25,7 @@ if draw_map == true {
 }
 
 
-if instance_exists(obj_cone) {
+if instance_exists(obj_cone) and instance_exists(obj_player){
 	gpu_set_blendmode(bm_add)
 	
 	if !instance_exists(obj_invis_light) {
