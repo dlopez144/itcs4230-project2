@@ -61,6 +61,7 @@
     {"id":{"name":"tileset_nursey","path":"tilesets/tileset_nursey/tileset_nursey.yy",},"order":3,},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":5,},
     {"id":{"name":"spr_battery_bar_fill","path":"sprites/spr_battery_bar_fill/spr_battery_bar_fill.yy",},"order":1,},
+    {"id":{"name":"spr_coll_mask_2","path":"sprites/spr_coll_mask_2/spr_coll_mask_2.yy",},"order":12,},
     {"id":{"name":"obj_bookshelf_1","path":"objects/obj_bookshelf_1/obj_bookshelf_1.yy",},"order":1,},
     {"id":{"name":"spr_final_door","path":"sprites/spr_final_door/spr_final_door.yy",},"order":2,},
     {"id":{"name":"spr_player_idle_back","path":"sprites/spr_player_idle_back/spr_player_idle_back.yy",},"order":2,},
