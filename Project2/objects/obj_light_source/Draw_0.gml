@@ -9,7 +9,10 @@ surface_set_target(light_surf)
 camera_apply(cam)
 
 draw_clear_alpha(c_black, 1) // drawing darkness
-if instance_exists(obj_player) then draw_circle(obj_player.x, obj_player.y, light_circle_radius, false)
+if instance_exists(obj_player) {
+	//draw_circle(obj_player.x, obj_player.y, light_circle_radius, false)
+	draw_ellipse(obj_player.x - light_circle_width, obj_player.y - light_circle_height, obj_player.x + light_circle_width, obj_player.y + light_circle_height, false)
+}
 
 // drawing map if the player has it
 if draw_map == true {

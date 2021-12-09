@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "spr_player_idle_down",
-    "path": "sprites/spr_player_idle_down/spr_player_idle_down.yy",
+    "name": "spr_player_idle_front",
+    "path": "sprites/spr_player_idle_front/spr_player_idle_front.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_coll_mask",
+    "path": "sprites/spr_coll_mask/spr_coll_mask.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

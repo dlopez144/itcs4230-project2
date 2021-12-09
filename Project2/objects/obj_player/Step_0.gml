@@ -22,8 +22,9 @@ if state == player_state.actionable { // movement and things that don't pause th
 		hsp = 0
 		vsp = 0
 		
-		// TODO: handle idle anims here
 	}
+	
+
 	
 	while not ds_stack_empty(input_stack) and ds_stack_size(input_stack) <= 2 { // only handling a max # of two overlapping inputs at a time
 		//show_debug_message(ds_stack_top(input_stack))
@@ -31,27 +32,29 @@ if state == player_state.actionable { // movement and things that don't pause th
 			case up:
 				//show_debug_message("in up")
 				facing = 0
-				sprite_index = spr_player_move_up
+				sprite_index = spr_player_idle_back
 				hsp = 0 // no diagonal movement for now
 				vsp = -ver_speed
 			break
 			case right:
 				//show_debug_message("in right")
 				facing = 2
-				sprite_index = spr_player_hmove
+				sprite_index = spr_player_run
+				image_xscale = abs(image_xscale)
 				vsp = 0
 				hsp = hor_speed
 			break
 			case down:
 				//show_debug_message("in down")
 				facing = 1
-				sprite_index = spr_player_move_down
+				sprite_index = spr_player_idle_front
 				hsp = 0
 				vsp = ver_speed
 			break
 			case left:
 				facing = 3
-				sprite_index = spr_player_hmove
+				image_xscale = abs(image_xscale) * -1
+				sprite_index = spr_player_run
 				//show_debug_message("in left")
 				vsp = 0
 				hsp = -hor_speed
@@ -72,24 +75,24 @@ if state == player_state.actionable { // movement and things that don't pause th
 
 
 // basic collision
-if !instance_place(x, y + sign(vsp), obj_block) {
+if !place_meeting(x, y + sign(vsp), obj_block) {
 	if vsp < 0 {
-		if	!instance_place(x, y + vsp, obj_decayed_door) and
-			!instance_place(x, y + vsp, obj_bookshelf_1) and
-			!instance_place(x, y + vsp, obj_bookshelf_2) and 
-			!instance_place(x, y + vsp, obj_final_door1) and
-			!instance_place(x, y + vsp, obj_win_note_door) and
-			!instance_place(x, y + vsp, obj_barricaded_door) and
-			!instance_place(x, y + vsp, obj_cracked_wall) {
+		if	!place_meeting(x, y + vsp, obj_decayed_door) and
+			!place_meeting(x, y + vsp, obj_bookshelf_1) and
+			!place_meeting(x, y + vsp, obj_bookshelf_2) and 
+			!place_meeting(x, y + vsp, obj_final_door1) and
+			!place_meeting(x, y + vsp, obj_win_note_door) and
+			!place_meeting(x, y + vsp, obj_barricaded_door) and
+			!place_meeting(x, y + vsp, obj_cracked_wall) {
 			y += vsp
 		}
-	} else if	!instance_place(x, y + vsp, obj_decayed_door) and
-				!instance_place(x, y + vsp, obj_bookshelf_1) and
-				!instance_place(x, y + vsp, obj_bookshelf_2) and
-				!instance_place(x, y + vsp, obj_final_door1) and
-				!instance_place(x, y + vsp, obj_win_note_door) and
-				!instance_place(x, y + vsp, obj_barricaded_door) and
-				!instance_place(x, y + vsp, obj_cracked_wall) {
+	} else if	!place_meeting(x, y + vsp, obj_decayed_door) and
+				!place_meeting(x, y + vsp, obj_bookshelf_1) and
+				!place_meeting(x, y + vsp, obj_bookshelf_2) and
+				!place_meeting(x, y + vsp, obj_final_door1) and
+				!place_meeting(x, y + vsp, obj_win_note_door) and
+				!place_meeting(x, y + vsp, obj_barricaded_door) and
+				!place_meeting(x, y + vsp, obj_cracked_wall) {
 		y += vsp
 	}
 	
@@ -97,27 +100,44 @@ if !instance_place(x, y + sign(vsp), obj_block) {
 
 if !instance_place(x + sign(hsp), y, obj_block){
 	if hsp < 0 {
-		if	!instance_place(x + hsp, y, obj_decayed_door) and 
-			!instance_place(x + hsp, y, obj_bookshelf_1) and 
-			!instance_place(x + hsp, y, obj_bookshelf_2) and 
-			!instance_place(x + hsp, y, obj_final_door1) and 
-			!instance_place(x + hsp, y, obj_win_note_door) and
-			!instance_place(x + hsp, y, obj_barricaded_door) and
-			!instance_place(x + hsp, y, obj_cracked_wall) {
+		if	!place_meeting(x + hsp, y, obj_decayed_door) and 
+			!place_meeting(x + hsp, y, obj_bookshelf_1) and 
+			!place_meeting(x + hsp, y, obj_bookshelf_2) and 
+			!place_meeting(x + hsp, y, obj_final_door1) and 
+			!place_meeting(x + hsp, y, obj_win_note_door) and
+			!place_meeting(x + hsp, y, obj_barricaded_door) and
+			!place_meeting(x + hsp, y, obj_cracked_wall) {
 			x += hsp
 		}
-	} else if	!instance_place(x + hsp, y, obj_decayed_door) and 
-				!instance_place(x + hsp, y, obj_bookshelf_1) and 
-				!instance_place(x + hsp, y, obj_bookshelf_2) and 
-				!instance_place(x + hsp, y, obj_final_door1) and 
-				!instance_place(x + hsp, y, obj_win_note_door) and 
-				!instance_place(x + hsp, y, obj_barricaded_door) and 
-				!instance_place(x + hsp, y, obj_cracked_wall) {
+	} else if	!place_meeting(x + hsp, y, obj_decayed_door) and 
+				!place_meeting(x + hsp, y, obj_bookshelf_1) and 
+				!place_meeting(x + hsp, y, obj_bookshelf_2) and 
+				!place_meeting(x + hsp, y, obj_final_door1) and 
+				!place_meeting(x + hsp, y, obj_win_note_door) and 
+				!place_meeting(x + hsp, y, obj_barricaded_door) and 
+				!place_meeting(x + hsp, y, obj_cracked_wall) {
 		x += hsp
 	}
 }
 
 
+// idle animation handling
+if hsp == 0 and vsp == 0 {
+		switch(facing) {
+		case 0:
+			sprite_index = spr_player_idle_back
+		break
+		case 1:
+			sprite_index = spr_player_idle_front
+		break
+		case 2:
+			sprite_index = spr_player_idle_side
+		break
+		case 3:
+			sprite_index = spr_player_idle_side
+		break
+	}
+}
 
 
 //else if state == player_state.unactionable {
