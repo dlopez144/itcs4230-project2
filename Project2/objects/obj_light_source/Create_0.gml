@@ -10,3 +10,6 @@ u_dark = shader_get_uniform(light_multiplier, "u_f_darkness")
 u_sample = shader_get_sampler_index(light_multiplier, "u_sampler_light")
 
 draw_map = false
+
+defaultHeight = light_circle_height
+defaultWidth = light_circle_width
