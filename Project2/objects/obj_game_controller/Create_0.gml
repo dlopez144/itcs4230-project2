@@ -10,5 +10,6 @@ hasKey2 = false
 hasFuel = false
 hasMatches = false
 bookShelf2Opened = false
+finalLevel = "level_2"
 
 
