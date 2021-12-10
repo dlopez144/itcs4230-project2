@@ -28,6 +28,7 @@ if (!obj_game_controller.levelComplete and !obj_game_controller.game_over) {
 }
 
 if (obj_game_controller.game_over) {
+	show_debug_message("IN HERE")
 	draw_set_font(FontSmall)
 	//Sets color for border
 	draw_set_colour(c_purple)
@@ -42,5 +43,6 @@ if (obj_game_controller.game_over) {
 	draw_set_alpha(1)
 	draw_set_halign(fa_center)
 	//restart button
+	show_debug_message("IN UI")
 	draw_text(room_width / 2, room_height / 2, "Or press \"r\" to restart!")
 }

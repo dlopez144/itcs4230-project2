@@ -31,10 +31,8 @@ if (returningToSpawn) {
 }
 
 if	enemy_hp <= 0 {
-	// TODO: play death anim
-	instance_destroy() // temp destroy call until a death anim is made
-	//alarm[2] = 30 // however long the death anim is, destroy the instance there
-	// or could just play the death anim and destroy the instance in the animation end event
+	effect_create_above(ef_smoke, x, y, 2, c_black)
+	instance_destroy()
 }
 
 if instance_exists(obj_cone) {

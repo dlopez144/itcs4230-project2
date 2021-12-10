@@ -2,6 +2,7 @@
 // You can write your code in this editor
 /// @description Win message/UI
 if (obj_game_controller.levelComplete) {
+	show_debug_message("TEST")
 	draw_set_font(FontSmall)
 	//Sets color
 	draw_set_colour(c_purple)
