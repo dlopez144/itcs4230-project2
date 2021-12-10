@@ -47,7 +47,7 @@ if state == player_state.actionable { // movement and things that don't pause th
 			case down:
 				//show_debug_message("in down")
 				facing = 1
-				sprite_index = spr_player_idle_front
+				sprite_index = spr_player_run_front
 				hsp = 0
 				vsp = ver_speed
 			break
