@@ -32,7 +32,7 @@ if state == player_state.actionable { // movement and things that don't pause th
 			case up:
 				//show_debug_message("in up")
 				facing = 0
-				sprite_index = spr_player_idle_back
+				sprite_index = spr_player_run_back
 				hsp = 0 // no diagonal movement for now
 				vsp = -ver_speed
 			break
