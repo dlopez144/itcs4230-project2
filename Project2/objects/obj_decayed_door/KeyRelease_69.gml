@@ -2,6 +2,7 @@
 if (playerNear) {
 	//obj_UI_controller.quest_title = "Suspicious bookcase"
 	//obj_UI_controller.quest_body = "- One of those books may reveal a secrete passage.\nQuestion is, which one?"
+	audio_play_sound(sfx_axe_used, 1, 0)
 	instance_destroy()
 } else if (playerNearNoTool) {
 	//player interact sound here

@@ -9,5 +9,5 @@ if (obj_game_controller.hasFuel) {
 	obj_UI_controller.quest_title = "Kill the monster"
 	obj_UI_controller.quest_body = "- Find fuel"
 }
-
+audio_play_sound(sfx_matches_vl, 1, 0)
 instance_destroy()

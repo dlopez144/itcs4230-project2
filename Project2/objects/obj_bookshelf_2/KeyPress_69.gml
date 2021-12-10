@@ -5,4 +5,5 @@ if (playerNear) {
 	instance_destroy()
 } else if (playerNearNoTool) {
 	//player interact sound here
+	audio_play_sound(sfx_bookcase_vl, 1, 0)
 }

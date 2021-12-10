@@ -27,10 +27,12 @@ if (returningToSpawn) {
 	if (distance_to_point(spawnX, spawnY) < 1) {
 		returningToSpawn = false
 		sprite_index = spr_small_enemy;
+		 audio_play_sound_at(sfx_baby_home, x, y, 0, 100, 300, 1, 0, 1)
 	}
 }
 
 if	enemy_hp <= 0 {
+	 audio_play_sound_at(sfx_baby_death, x, y, 0, 100, 300, 1, 0, 1)
 	effect_create_above(ef_smoke, x, y, 2, c_black)
 	instance_destroy()
 }
@@ -46,4 +48,12 @@ if instance_exists(obj_cone) {
 //reset move speed when not in light
 if (!place_meeting(x, y, obj_cone)) {
 	move_spd = 3
+}
+
+if (aggroed or returningToSpawn) {
+	if (sound == pointer_null)
+	sound = audio_play_sound_at(sfx_baby_walk, x, y, 0, 100, 300, 1, 1, 1)
+} else if (sound != pointer_null) {
+	audio_stop_sound(sound)	
+	sound = pointer_null
 }
