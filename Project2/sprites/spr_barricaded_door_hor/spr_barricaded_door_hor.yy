@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 18,
-  "bbox_right": 52,
-  "bbox_top": 1,
-  "bbox_bottom": 63,
+  "bbox_left": 9,
+  "bbox_right": 1012,
+  "bbox_top": 58,
+  "bbox_bottom": 963,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 1024,
+  "height": 1024,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"LayerId":{"name":"9fd1cc16-7492-4ec8-81ff-6bb0e02cdc9d","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_barricaded_door_hor","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"resourceVersion":"1.0","name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0fa7bf09-a763-4064-88b3-bea43701aa06","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0fa7bf09-a763-4064-88b3-bea43701aa06","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"LayerId":{"name":"55fa742e-6c92-4409-afc8-329f1d69a002","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_barricaded_door_hor","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"resourceVersion":"1.0","name":"0fa7bf09-a763-4064-88b3-bea43701aa06","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_barricaded_door_hor","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b8360933-1f65-44c0-ba35-38e34fee5a44","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ab0fd733-3c54-47e4-8e9b-d094ac7c563e","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0fa7bf09-a763-4064-88b3-bea43701aa06","path":"sprites/spr_barricaded_door_hor/spr_barricaded_door_hor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
+    "xorigin": 512,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9fd1cc16-7492-4ec8-81ff-6bb0e02cdc9d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"55fa742e-6c92-4409-afc8-329f1d69a002","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

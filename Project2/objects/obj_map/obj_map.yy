@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite20",
-    "path": "sprites/Sprite20/Sprite20.yy",
+    "name": "spr_map",
+    "path": "sprites/spr_map/spr_map.yy",
   },
   "solid": false,
   "visible": true,

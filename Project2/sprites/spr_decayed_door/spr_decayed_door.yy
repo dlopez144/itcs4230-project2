@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 18,
-  "bbox_right": 50,
-  "bbox_top": 1,
-  "bbox_bottom": 63,
+  "bbox_left": 84,
+  "bbox_right": 935,
+  "bbox_top": 58,
+  "bbox_bottom": 1006,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 1024,
+  "height": 1024,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"LayerId":{"name":"9fd1cc16-7492-4ec8-81ff-6bb0e02cdc9d","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_decayed_door","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"resourceVersion":"1.0","name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f35c546e-695f-4670-ad4e-4e21951d3419","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f35c546e-695f-4670-ad4e-4e21951d3419","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"LayerId":{"name":"9efc8ae2-365f-4309-8175-c3978051bfda","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_decayed_door","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"resourceVersion":"1.0","name":"f35c546e-695f-4670-ad4e-4e21951d3419","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_decayed_door","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c9f493f5-4dd2-4d9e-9708-f31a167efdeb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d4738688-821e-4e0b-8856-8d8d4ba48c80","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e69082ae-eaf5-483a-9597-718df5fbf57a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f35c546e-695f-4670-ad4e-4e21951d3419","path":"sprites/spr_decayed_door/spr_decayed_door.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,7 +54,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 32,
+    "xorigin": 512,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9fd1cc16-7492-4ec8-81ff-6bb0e02cdc9d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9efc8ae2-365f-4309-8175-c3978051bfda","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

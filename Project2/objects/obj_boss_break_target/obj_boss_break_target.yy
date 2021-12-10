@@ -4,7 +4,7 @@
     "path": "sprites/spr_boss_break_target/spr_boss_break_target.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,

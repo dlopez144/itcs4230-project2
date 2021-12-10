@@ -7,6 +7,12 @@ if (instance_exists(obj_player)) {
 		returningToSpawn = false
 		//steps towards player, avoiding obj_block
 		mp_potential_step_object(obj_player.x, obj_player.y, move_spd, obj_block)
+		sprite_index = spr_small_enemy_hor
+		if (obj_player.x < x) {
+			image_xscale = -1
+		} else {
+			image_xscale = 1
+		}
 	} else {
 		//if player leaves range, pause
 		if (aggroed) {
@@ -20,6 +26,7 @@ if (returningToSpawn) {
 	mp_potential_step_object(spawnX, spawnY, move_spd, obj_block)
 	if (distance_to_point(spawnX, spawnY) < 1) {
 		returningToSpawn = false
+		sprite_index = spr_small_enemy;
 	}
 }
 

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 21,
-  "bbox_right": 43,
+  "bbox_left": 0,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 62,
+  "bbox_bottom": 191,
   "HTile": false,
   "VTile": false,
   "For3D": false,
   "width": 64,
-  "height": 64,
+  "height": 192,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"da836861-4e83-4a9c-99fb-9dfb8cc257f4","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"da836861-4e83-4a9c-99fb-9dfb8cc257f4","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"LayerId":{"name":"223c541c-8dd1-47cd-a74a-c43126dbe9d3","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_cracked_door_hor","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"resourceVersion":"1.0","name":"da836861-4e83-4a9c-99fb-9dfb8cc257f4","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"517c0d31-5211-4903-b5f6-e3fa86f7b37a","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"517c0d31-5211-4903-b5f6-e3fa86f7b37a","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"LayerId":{"name":"aa54f8c6-6017-4fa8-9577-937a9df338b3","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_cracked_door_hor","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"resourceVersion":"1.0","name":"517c0d31-5211-4903-b5f6-e3fa86f7b37a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_cracked_door_hor","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f338ce3d-a629-4d43-bca6-816a51a430bb","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"da836861-4e83-4a9c-99fb-9dfb8cc257f4","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e51a47b4-ac1f-4c1d-b096-0309911f0b08","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"517c0d31-5211-4903-b5f6-e3fa86f7b37a","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"223c541c-8dd1-47cd-a74a-c43126dbe9d3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"aa54f8c6-6017-4fa8-9577-937a9df338b3","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
