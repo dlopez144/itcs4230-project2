@@ -9,7 +9,8 @@ down = ord("S")
 // to be changed later; will add substates instead of having multiple idle states
 enum player_state {
 	actionable,
-	unactionable
+	unactionable,
+	dying
 }
 
 state = player_state.actionable
@@ -22,4 +23,3 @@ inputs = [up, down, left, right]
 input_stack = ds_stack_create()
 hor_speed = 8
 ver_speed = 8
-
