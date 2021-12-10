@@ -65,6 +65,7 @@
     {"id":{"name":"spr_cracked_door_hor","path":"sprites/spr_cracked_door_hor/spr_cracked_door_hor.yy",},"order":8,},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},"order":3,},
     {"id":{"name":"tileset_nursey","path":"tilesets/tileset_nursey/tileset_nursey.yy",},"order":3,},
+    {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},"order":6,},
     {"id":{"name":"spr_player_run_front","path":"sprites/spr_player_run_front/spr_player_run_front.yy",},"order":4,},
     {"id":{"name":"Sprite29","path":"sprites/Sprite29/Sprite29.yy",},"order":5,},
     {"id":{"name":"spr_battery_bar_fill","path":"sprites/spr_battery_bar_fill/spr_battery_bar_fill.yy",},"order":1,},

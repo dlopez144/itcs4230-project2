@@ -71,6 +71,10 @@ if state == player_state.actionable { // movement and things that don't pause th
 	} else {
 		state = player_state.actionable
 	}
+} else if state == player_state.dying {
+	hsp = 0
+	vsp = 0
+	sprite_index = spr_player_death
 }
 
 
@@ -122,7 +126,7 @@ if !instance_place(x + hsp, y, obj_block){
 
 
 // idle animation handling
-if hsp == 0 and vsp == 0 {
+if hsp == 0 and vsp == 0 and state != player_state.dying {
 		switch(facing) {
 		case 0:
 			sprite_index = spr_player_idle_back
