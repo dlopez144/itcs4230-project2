@@ -28,6 +28,7 @@
     {"id":{"name":"obj_final_door_key2","path":"objects/obj_final_door_key2/obj_final_door_key2.yy",},"order":6,},
     {"id":{"name":"sfx_baby_hit","path":"sounds/sfx_baby_hit/sfx_baby_hit.yy",},"order":12,},
     {"id":{"name":"obj_menu_controller","path":"objects/obj_menu_controller/obj_menu_controller.yy",},"order":1,},
+    {"id":{"name":"sound_overlap_check","path":"scripts/sound_overlap_check/sound_overlap_check.yy",},"order":3,},
     {"id":{"name":"obj_crowbar","path":"objects/obj_crowbar/obj_crowbar.yy",},"order":2,},
     {"id":{"name":"tileset_floor","path":"tilesets/tileset_floor/tileset_floor.yy",},"order":0,},
     {"id":{"name":"sfx_decayed_door_vl","path":"sounds/sfx_decayed_door_vl/sfx_decayed_door_vl.yy",},"order":27,},
