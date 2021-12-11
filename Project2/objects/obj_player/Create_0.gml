@@ -25,3 +25,5 @@ hor_speed = 8
 ver_speed = 8
 
 walksound = true
+
+can_click_sound = true
