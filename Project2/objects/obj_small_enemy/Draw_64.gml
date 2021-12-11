@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+/*
 if (draw_health_bar){
 	
 	//if surface_exists(obj_light_source.light_surf) {
@@ -16,3 +17,4 @@ if (draw_health_bar){
 	//}
 
 }
+*/

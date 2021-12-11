@@ -9,9 +9,9 @@ if (instance_exists(obj_player)) {
 		mp_potential_step_object(obj_player.x, obj_player.y, move_spd, obj_block)
 		sprite_index = spr_small_enemy_hor
 		if (obj_player.x < x) {
-			image_xscale = -1
+			image_xscale = abs(image_xscale) * -1
 		} else {
-			image_xscale = 1
+			image_xscale = abs(image_xscale)
 		}
 	} else {
 		//if player leaves range, pause
