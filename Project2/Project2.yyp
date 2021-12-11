@@ -12,6 +12,7 @@
     {"id":{"name":"spr_barricaded_door","path":"sprites/spr_barricaded_door/spr_barricaded_door.yy",},"order":4,},
     {"id":{"name":"sfx_baby_attack","path":"sounds/sfx_baby_attack/sfx_baby_attack.yy",},"order":9,},
     {"id":{"name":"obj_map_open","path":"objects/obj_map_open/obj_map_open.yy",},"order":2,},
+    {"id":{"name":"seq_final","path":"sequences/seq_final/seq_final.yy",},"order":0,},
     {"id":{"name":"obj_axe","path":"objects/obj_axe/obj_axe.yy",},"order":0,},
     {"id":{"name":"spr_battery","path":"sprites/spr_battery/spr_battery.yy",},"order":0,},
     {"id":{"name":"sfx_baby_home","path":"sounds/sfx_baby_home/sfx_baby_home.yy",},"order":11,},
