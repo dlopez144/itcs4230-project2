@@ -27,6 +27,7 @@ if instance_exists(obj_player) {
 	
 	
 	if keyboard_check_released(ord("F")) or obj_UI_controller.battery_charge <= 0 {
+		audio_play_sound_at(sfx_flashlight, x, y, 0, 100, 300, 1, 0, 1)
 		state = player_state.actionable
 		instance_destroy(obj_cone) // can use obj here instead of id since there's only 1
 
