@@ -62,6 +62,8 @@ if instance_exists(obj_cone) and instance_exists(obj_player){
 	
 	draw_primitive_end()
 	
+} else if room_get_name(room) == "end_room" {
+	draw_rectangle(-10, -10, 2000, 2000, false)
 }
 
 

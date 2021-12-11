@@ -23,3 +23,5 @@ inputs = [up, down, left, right]
 input_stack = ds_stack_create()
 hor_speed = 8
 ver_speed = 8
+
+walksound = true

@@ -144,43 +144,11 @@ if hsp == 0 and vsp == 0 and state != player_state.dying {
 	}
 }
 
-
-//else if state == player_state.unactionable {
-//	instance_create_layer(x, y, "Instances", obj_cone)
-//	switch (facing) {
-//		case 0:
-//			if mouse_y < y then obj_cone.image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
-//			obj_cone.image_angle = clamp(obj_cone.image_angle, -90, 90)
-//		break
-//		case 1:
-//			if mouse_y > y then obj_cone.image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
-//			obj_cone.image_angle = clamp(obj_cone.image_angle, 90, 270)
-//			show_debug_message(obj_cone.image_angle)
-
-//		break
-//		case 2: // bug found; fix later
-//			obj_cone.image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
-//			//if ((-90 <= obj_cone.image_angle and obj_cone.image_angle <= 0) or (180 <= obj_cone.image_angle and obj_cone.image_angle = 270)) {
-//			//	if mouse_x < x {
-//			//		obj_cone.image_angle = 0
-//			//	} else if mouse_y > y {
-//			//		obj_cone.image_angle = 180
-//			//	}
-//			//}
-//			//show_debug_message(obj_cone.image_angle)
-//		break
-//		case 3:
-//			if mouse_x < x then obj_cone.image_angle = point_direction(x, y, mouse_x, mouse_y) - 90
-//			obj_cone.image_angle = clamp(obj_cone.image_angle, 0, 180)
-//		break
-//	}
-	
-//	object_set_visible(obj_cone, 1)
-	
-	
-//	if keyboard_check_released(ord("F")) {
-//		state = player_state.actionable
-//		instance_destroy(obj_cone) // can use obj here instead of id since there's only 1
-
-//	}
-//}
+if vsp != 0 or hsp != 0 {
+	//audio_play_sound_at(sfx_player_walk, x, y, 0, 0, 0, 0, 0, 1)
+	if walksound {
+		walksound = false
+		alarm[1] = 40
+		audio_play_sound_at(sfx_player_walk, x, y, 0, 100, 300, 1, 0, 1)
+	}
+}

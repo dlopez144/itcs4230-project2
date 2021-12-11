@@ -10,5 +10,6 @@ hasKey2 = false
 hasFuel = false
 hasMatches = false
 bookShelf2Opened = false
+finalLevel = "level_2"
 
 audio_play_sound(sfx_music, 1, 1)

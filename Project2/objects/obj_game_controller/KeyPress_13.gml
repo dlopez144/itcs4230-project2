@@ -3,3 +3,15 @@ if (levelComplete = true) {
 	levelComplete = false
 	room_goto_next()
 }
+
+//disables everything when finishing last level
+if (room_get_name(room) == finalLevel) {
+	hasAxe = false
+	hasBookNote1 = false
+	hasBookNote2 = false
+	hasKey1 = false
+	obj_map_open.hasMap = false
+	obj_UI_controller.quest_title = ""
+	obj_UI_controller.quest_body = ""
+	instance_deactivate_all(true)
+}

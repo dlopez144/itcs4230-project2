@@ -187,9 +187,9 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"level_1","path":"rooms/level_1/level_1.yy",},},
     {"roomId":{"name":"level_2","path":"rooms/level_2/level_2.yy",},},
+    {"roomId":{"name":"end_room","path":"rooms/end_room/end_room.yy",},},
     {"roomId":{"name":"test_room","path":"rooms/test_room/test_room.yy",},},
     {"roomId":{"name":"shader_test_room","path":"rooms/shader_test_room/shader_test_room.yy",},},
-    {"roomId":{"name":"end_room","path":"rooms/end_room/end_room.yy",},},
     {"roomId":{"name":"menu_room","path":"rooms/menu_room/menu_room.yy",},},
   ],
   "Folders": [
