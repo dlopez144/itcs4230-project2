@@ -5,5 +5,12 @@ if (playerNear) {
 									
 } else if (playerNearNoTool) {
 	//player interact sound here
-	audio_play_sound(sfx_bookcase_vl, 1, 0)
+		count = 0
+	for (var i = 0; i < array_length_1d(obj_game_controller.voicelines); i++) {
+		if audio_is_playing(obj_game_controller.voicelines[i]) {
+			count++
+		}
+	}
+	
+	 if count == 0 then audio_play_sound(sfx_bookcase_vl, 1, 0)
 }
