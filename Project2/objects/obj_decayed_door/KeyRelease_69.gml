@@ -6,4 +6,5 @@ if (playerNear) {
 	instance_destroy()
 } else if (playerNearNoTool) {
 	//player interact sound here
+	 audio_play_sound_at(sfx_decayed_door_vl, x, y, 0, 100, 300, 1, 0, 1)
 }

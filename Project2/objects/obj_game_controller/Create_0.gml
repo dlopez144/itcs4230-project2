@@ -11,4 +11,4 @@ hasFuel = false
 hasMatches = false
 bookShelf2Opened = false
 
-
+audio_play_sound(sfx_music, 1, 1)

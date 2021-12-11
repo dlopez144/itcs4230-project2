@@ -67,6 +67,7 @@ if state == player_state.actionable { // movement and things that don't pause th
 } else if state == player_state.unactionable { // no moving
 	//move_flashlight_mouse()
 	if instance_exists(obj_UI_controller) and obj_UI_controller.battery_charge > 0 {
+		 audio_play_sound_at(sfx_flashlight, x, y, 0, 100, 300, 1, 0, 1)
 		control_flashlight() // keyboard controls for the flashlight
 	} else {
 		state = player_state.actionable
