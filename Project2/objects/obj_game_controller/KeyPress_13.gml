@@ -1,6 +1,7 @@
 /// @description Go to next level
 if (levelComplete = true) {
 	levelComplete = false
+	audio_play_sound(sfx_music, 1, 1)
 	room_goto_next()
 }
 
