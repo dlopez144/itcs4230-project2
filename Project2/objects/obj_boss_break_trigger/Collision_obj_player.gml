@@ -1,16 +1,12 @@
 /// @description Checks for player, fuel, and matches, or 
 
 if (obj_game_controller.hasFuel and obj_game_controller.hasMatches) {
-	if instance_exists(obj_boss_break) {
-		layer_set_visible("Shake", true)
-		obj_boss_break.event_started = true
-	}
+	layer_set_visible("Shake", true)
+	instance_create_layer(1728, 928, layer, obj_boss_break)	
 }
 
 if (obj_game_controller.bookShelf2Opened) {
-	if instance_exists(obj_boss_break) {
-		layer_set_visible("Shake", true)
-		obj_boss_break.event_started = true
-		obj_game_controller.bookShelf2Opened = false;
-	}
+	layer_set_visible("Shake", true)
+	instance_create_layer(192, 864, layer, obj_boss_break)	
+	obj_game_controller.bookShelf2Opened = false
 }
