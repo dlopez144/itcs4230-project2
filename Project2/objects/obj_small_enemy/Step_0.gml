@@ -26,7 +26,7 @@ if (returningToSpawn) {
 	mp_potential_step_object(spawnX, spawnY, move_spd, obj_block)
 	if (distance_to_point(spawnX, spawnY) < 1) {
 		returningToSpawn = false
-		sprite_index = spr_small_enemy;
+		sprite_index = spr_baby_front_idle;
 		 audio_play_sound_at(sfx_baby_home, x, y, 0, 100, 300, 1, 0, 1)
 	}
 }
