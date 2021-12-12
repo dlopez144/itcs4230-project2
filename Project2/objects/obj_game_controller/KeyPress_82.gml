@@ -35,6 +35,7 @@ if (game_over) {
 		hasMap = false
 		obj_UI_controller.quest_title = "Find a way through to the exit"
 		obj_UI_controller.quest_body = "- Explore"
+		audio_play_sound(sfx_music, 1, 1)
 	} else {
 		hasCrowbar = false
 		hasMatches = false
