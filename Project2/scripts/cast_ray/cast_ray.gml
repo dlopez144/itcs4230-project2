@@ -1,5 +1,7 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+/*
+* An iterative approach to find a good estimate for a collision point given two start and end coordinates
+* Only checks for obj_solid collisions (basically every block in the game)
+*/
 function cast_ray(x_start, y_start, x_end, y_end) {
 	block_1 = collision_line(x_start, y_start, x_end, y_end, obj_solid, true, true)
 	
@@ -14,7 +16,7 @@ function cast_ray(x_start, y_start, x_end, y_end) {
 		// basically just a form of binary search but on a pixel level
 		// 
 		while abs(distance_x) >= 1 or abs(distance_y) >= 1 {
-			// halving distances 
+			// halving distances until we're approx 1 pixel away from our collision point
 			distance_x /= 2
 			distance_y /= 2
 			
