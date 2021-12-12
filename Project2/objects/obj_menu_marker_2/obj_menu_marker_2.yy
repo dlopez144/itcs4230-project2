@@ -4,7 +4,7 @@
     "path": "sprites/spr_player_idle_down/spr_player_idle_down.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
