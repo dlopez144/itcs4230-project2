@@ -47,6 +47,5 @@ if (obj_game_controller.game_over) {
 	show_debug_message("IN UI")
 	draw_text(room_width / 2, room_height / 2, "Or press \"r\" to restart!")
 	*/
-	sound_overlap_check()
 	draw_sprite(spr_losescreen, 0, 0, 0)
 }
