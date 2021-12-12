@@ -52,7 +52,7 @@ if (!place_meeting(x, y, obj_cone)) {
 
 if (aggroed or returningToSpawn) {
 	if (sound == pointer_null)
-	sound = audio_play_sound_at(sfx_baby_walk, x, y, 0, 100, 300, 1, 1, 1)
+	sound = audio_play_sound_at(sfx_baby_walk, x, y, 0, 1, 10, 5, 1, 1)
 } else if (sound != pointer_null) {
 	audio_stop_sound(sound)	
 	sound = pointer_null

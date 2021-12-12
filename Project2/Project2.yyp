@@ -52,7 +52,6 @@
     {"id":{"name":"obj_cone","path":"objects/obj_cone/obj_cone.yy",},"order":0,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"obj_cracked_wall","path":"objects/obj_cracked_wall/obj_cracked_wall.yy",},"order":7,},
-    {"id":{"name":"spr_boss_idle","path":"sprites/spr_boss_idle/spr_boss_idle.yy",},"order":1,},
     {"id":{"name":"obj_UI_controller","path":"objects/obj_UI_controller/obj_UI_controller.yy",},"order":1,},
     {"id":{"name":"spr_boss_break_target","path":"sprites/spr_boss_break_target/spr_boss_break_target.yy",},"order":3,},
     {"id":{"name":"spr_boss_run","path":"sprites/spr_boss_run/spr_boss_run.yy",},"order":0,},
